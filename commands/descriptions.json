@@ -1,0 +1,54 @@
+[
+{ "name": "SmartThings Device On",
+  "script": "on.sh",
+  "args": [
+    {
+        "allowBlanks" : false,
+        "description" : "Device Name",
+        "name" : "device",
+        "optional" : false,
+        "type" : "string",
+        "contentListUrl": "/plugin.php?plugin=fpp-smartthings&page=getswitches.php&nopage=1"
+    }
+  ]
+},
+{ "name": "SmartThings Device Off",
+  "script": "off.sh",
+  "args": [
+    {
+        "allowBlanks" : false,
+        "description" : "Device Name",
+        "name" : "device",
+        "optional" : false,
+        "type" : "string",
+        "contentListUrl": "/plugin.php?plugin=fpp-smartthings&page=getswitches.php&nopage=1"
+    }
+  ]
+},
+{ "name": "SmartThings Device Toggle",
+    "script": "toggle.sh",
+    "args": [
+      {
+          "allowBlanks" : false,
+          "description" : "Device Name",
+          "name" : "device",
+          "optional" : false,
+          "type" : "string",
+          "contentListUrl": "/plugin.php?plugin=fpp-smartthings&page=getswitches.php&nopage=1"
+      }
+    ]
+  },
+  { "name": "SmartThings Routine",
+      "script": "routine.sh",
+      "args": [
+        {
+            "allowBlanks" : false,
+            "description" : "Routine Name",
+            "name" : "routine",
+            "optional" : false,
+            "type" : "string",
+            "contentListUrl": "/plugin.php?plugin=fpp-smartthings&page=getroutines.php&nopage=1"
+        }
+      ]
+    }
+]
