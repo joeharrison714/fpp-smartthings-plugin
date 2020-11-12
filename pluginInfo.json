@@ -2,10 +2,10 @@
 	"repoName": "fpp-smartthings",
 	"name": "SmartThings for FPP",
 	"author": "Joe Harrison (joeharrison714)",
-	"description": "This allows you to control SmartThings devices or run routies via commands in FPP.",
+	"description": "This allows you to control SmartThings devices via commands in FPP.",
 	"homeURL": "https://github.com/joeharrison714/fpp-smartthings-plugin",
 	"srcURL": "https://github.com/joeharrison714/fpp-smartthings-plugin.git",
-	"bugURL": "https://github.com/joeharrison714/fpp-smartthings-plugin",
+	"bugURL": "https://github.com/joeharrison714/fpp-smartthings-plugin/issues",
 	"allowUpdates": 1,
 	"versions": [
 		{
