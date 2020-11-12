@@ -30,3 +30,5 @@ In fpp, go to Content Setup, Plugin Manager and paste the following URL in the b
 1. After returning to FPP, restart FPPD
 1. Test control of your devices/routines using the buttons on the plugin configuration page
 1. The SmartThings commands should now be available in FPP
+
+**NOTE:** If you want to trigger a scene, you will need to create a virtual switch and then create an automation to trigger the scene. You can then trigger the virtual switch using this plugin.

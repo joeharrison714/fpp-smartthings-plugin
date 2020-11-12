@@ -29,3 +29,5 @@
             <li>The SmartThings commands should now be available in FPP</li>
         </ol>
 </ol>
+<p><strong>NOTE:</strong> If you want to trigger a scene, you will need to create a virtual switch and then create an automation to trigger the scene. You can then trigger the virtual switch using this plugin.
+</p>
