@@ -2,6 +2,8 @@
 
 This is a Falcon Player (fpp) plugin that allows you to control SmartThings devices by using commands in fpp.
 
+I developed this so that I could automate the turning on/off of my tune-to sign (which is plugged into a smart plug) and turn on/off other house lights before and after the show without having to maintain separate triggers in SmartThings. 
+
 NOTE: This currently uses the SmartThings groovy IDE, which is said to be going away sometime in 2021. When that happens this plugin will need to be updated.
 
 ## Installation
