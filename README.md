@@ -1,6 +1,6 @@
 # fpp-smartthings
 
-This is a Falcon Player (fpp) plugin that allows you to control SmartThings devices or run routines by using commands in fpp.
+This is a Falcon Player (fpp) plugin that allows you to control SmartThings devices by using commands in fpp.
 
 NOTE: This currently uses the SmartThings groovy IDE, which is said to be going away sometime in 2021. When that happens this plugin will need to be updated.
 
